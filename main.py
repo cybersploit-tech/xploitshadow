@@ -5,14 +5,14 @@ import time
 from utils.animation import loading_animation
 from utils.ColorsX import Colors
 from utils.bg import print_banner, print_menu
-from enumaration.enumarate import enumeration 
+from enumaration.enumarate import port_scan 
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def enumeration_mode():
     clear_screen()
-    enumeration()
+    port_scan()
     
 def find_vulnerabilities():
     clear_screen()
